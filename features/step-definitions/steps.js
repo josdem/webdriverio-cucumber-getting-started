@@ -2,17 +2,14 @@ const { Given, When, Then } = require('@cucumber/cucumber')
 
 let title
 
-Given('A webpage as {string}', function (string) {
-    browser.url(string)
-    return 'string';
-});
+Given('A webpage as {string}', function (keyword) {
+    browser.url(keyword)
+})
 
 When('I get page title', function () {
     title = browser.getTitle()
-    return title;
-});
+})
 
-Then('I validate title is {string}', function (string) {
-    expect(string === "josdem").toBeTruthy()
-    return string;
-});
+Then('I validate title is {string}', function (title) {
+    expect(title === "josdem").toBeTruthy()
+})

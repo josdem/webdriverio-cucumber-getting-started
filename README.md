@@ -1,5 +1,7 @@
 ## WebdriverIO with Cucumber Getting Started
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 This is a getting started project with [Webdriver.io](https://webdriver.io/) using [Cucumber Framework](https://cucumber.io/)
 
 #### Requirements

@@ -1,15 +1,15 @@
-const { Given, When, Then } = require('@cucumber/cucumber')
+const { Given, When, Then } = require("@cucumber/cucumber")
 
 let title
 
-Given('A webpage as {string}', async (keyword) => {
-    browser.url(keyword)
+Given("A webpage as {string}", async (keyword) => {
+  browser.url(keyword)
 })
 
-When('I get page title', async () => {
-    title = browser.getTitle()
+When("I get page title", async () => {
+  title = browser.getTitle()
 })
 
-Then('I validate title is {string}', async (title) => {
-    expect(title === "josdem").toBeTruthy()
+Then("I validate title is {string}", async (title) => {
+  expect(title === "josdem").toBeTruthy()
 })

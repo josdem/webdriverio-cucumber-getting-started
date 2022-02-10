@@ -14,6 +14,12 @@ This is a getting started project with [Webdriver.io](https://webdriver.io/) usi
 npm install
 ```
 
+#### To format the project
+
+```bash
+npx prettier --write .
+```
+
 #### To run the project
 
 ```bash
